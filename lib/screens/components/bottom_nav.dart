@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:winkl_customer/ThemeData/fontstyle.dart';
 import 'package:winkl_customer/screens/home_screens/home.dart';
+import 'package:winkl_customer/screens/profile_screens/profile_home.dart';
 
 import '../../common_widgets.dart';
 
@@ -33,7 +34,7 @@ class _BottomNavState extends State<BottomNav> {
         Home(),
         Container(),
         Container(),
-        Container(),
+        ProfileHome(),
       ];
     });
     super.initState();

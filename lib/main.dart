@@ -9,6 +9,8 @@ import 'package:winkl_customer/screens/login_register/login.dart';
 import 'package:winkl_customer/screens/login_register/register.dart';
 import 'package:winkl_customer/screens/otp_screens/get_otp.dart';
 import 'package:winkl_customer/screens/otp_screens/verify_otp.dart';
+import 'package:winkl_customer/screens/profile_screens/customer_care.dart';
+import 'package:winkl_customer/screens/profile_screens/feedback_suggestion.dart';
 import 'package:winkl_customer/screens/welcome.dart';
 import 'ThemeData/fontstyle.dart';
 
@@ -39,6 +41,8 @@ class MyApp extends StatelessWidget {
         '/bottom_nav': (context) => BottomNav(),
         '/shop_screen': (context) => ShopScreen(),
         '/item_screen': (context) => ItemScreen(),
+        '/customer_care': (context) => CustomerCare(),
+        '/feedback_suggestion': (context) => FeedBackSuggestion(),
       },
       initialRoute: '/',
     );

@@ -57,6 +57,8 @@ flutter:
     - assets/icons/google.png
     - assets/icons/hair_cut.png
     - assets/icons/barber_shop.png
+    - assets/icons/userprofiledefault.png
+    - assets/icons/grading.png
 
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
