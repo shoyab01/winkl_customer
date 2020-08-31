@@ -3,7 +3,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 import 'package:winkl_customer/screens/components/bottom_nav.dart';
 import 'package:winkl_customer/screens/forget_change_password/reset_password.dart';
+import 'package:winkl_customer/screens/home_screens/checkout.dart';
 import 'package:winkl_customer/screens/home_screens/item_screen.dart';
+import 'package:winkl_customer/screens/home_screens/order_tracking/track_order.dart';
+import 'package:winkl_customer/screens/home_screens/payment_screens/add_card.dart';
+import 'package:winkl_customer/screens/home_screens/payment_screens/payment_home.dart';
 import 'package:winkl_customer/screens/home_screens/shop_screen.dart';
 import 'package:winkl_customer/screens/login_register/login.dart';
 import 'package:winkl_customer/screens/login_register/register.dart';
@@ -43,6 +47,10 @@ class MyApp extends StatelessWidget {
         '/item_screen': (context) => ItemScreen(),
         '/customer_care': (context) => CustomerCare(),
         '/feedback_suggestion': (context) => FeedBackSuggestion(),
+        '/checkout': (context) => Checkout(),
+        '/payment_home': (context) => PaymentHome(),
+        '/add_card': (context) => AddCard(),
+        '/track_order': (context) => TrackOrder(),
       },
       initialRoute: '/',
     );

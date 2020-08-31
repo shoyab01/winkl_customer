@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:winkl_customer/ThemeData/fontstyle.dart';
+import 'package:winkl_customer/screens/home_screens/checkout.dart';
 
 class ShopScreen extends StatefulWidget {
   @override
@@ -197,7 +198,10 @@ class _ShopScreenState extends State<ShopScreen> {
                   Spacer(),
                   InkWell(
                     onTap: () {
-                      //////////////////////////////////////
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Checkout()),
+                      );
                     },
                     child: Row(
                       children: <Widget>[
